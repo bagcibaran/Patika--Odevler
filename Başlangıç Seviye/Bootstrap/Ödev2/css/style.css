@@ -4,6 +4,10 @@
   color: gray;
   background-position: 40%;
   background-size: 6%;
+  background-image: url("../assets/search-solid.svg");
+  background-repeat: no-repeat;
+  background-position: 35% 65%;
+  background-size: 12px;
 }
 
 input.empty {
