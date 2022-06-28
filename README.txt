@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Basliklar -> h1
 
 ## -> h2
@@ -33,3 +34,6 @@ function helloworld(){
 =======
 
 >>>>>>> f515dd2869cd6d5e7604619763b8597acc713fd3
+=======
+www.patika.dev
+>>>>>>> 53b3252cf55b47656345e7802a71bb9f1ad2ea1f
