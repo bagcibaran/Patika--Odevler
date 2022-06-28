@@ -1,0 +1,64 @@
+a{
+    font-size: x-large;
+    color: 06283D;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 45px;
+    margin: 25;
+    background-color:DF7861;
+    text-decoration:none ;
+    border-radius: 550px;
+}
+
+.menu{
+    height: 150px;
+}
+
+.baslık{
+   
+    height: 170px;
+}
+
+h2{
+    font-size: 50px;
+    color: brown;
+}
+
+img{
+    width: 500px;
+    margin-bottom: 150px;
+
+}
+
+.resimler{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+
+
+}
+
+.resimler p{
+    background-color: azure;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+h3{
+    background-color: blue;
+    width: 200px;
+}
+
+.icerik{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+
+
+}

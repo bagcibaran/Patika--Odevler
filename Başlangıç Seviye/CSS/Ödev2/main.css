@@ -1,0 +1,41 @@
+.container{
+    text-align: center;
+    margin: 0 20px;
+}
+.arama input{
+    width: 500;
+}
+.arama{
+    background-color: rgb(245, 243, 243);
+    
+}
+
+.arama button{
+    font-size: medium;
+    margin: 5px;
+    width: 200px;
+}
+
+.row{
+    width:30%;
+    height: 120px;
+    background-color: rgb(46, 179, 179);
+    padding: 30;
+    margin-top: 5px;
+}
+
+.linkler{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row:nth-child(even){
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(149, 244, 212);
+    width: 15%;
+}
+.row:nth-child(1){
+    background-color: rgb(106, 228, 228);
+    width: 40% !important;
+}
