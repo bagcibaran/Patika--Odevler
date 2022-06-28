@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Basliklar -> h1
 
 ## -> h2
@@ -29,3 +30,6 @@ function helloworld(){
     console.log("hello word")
 }
 ```
+=======
+
+>>>>>>> f515dd2869cd6d5e7604619763b8597acc713fd3
