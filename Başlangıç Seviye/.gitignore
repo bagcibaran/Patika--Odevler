@@ -8,7 +8,7 @@
 
 # img
 *.jnp
-*.png
+
 img/
 
 # video
