@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css"
+      integrity="sha512-XWTTruHZEYJsxV3W/lSXG1n3Q39YIWOstqvmFsdNEEQfHoZ6vm6E9GK2OrF6DSJSpIbRbi+Nn0WDPID9O7xB2Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Yapılacaklar Listesi</title>
+  </head>
+  <body>
+    <div aria-live="polite" aria-atomic="true" class="position-relative">
+      <!-- Position it: -->
+      <!-- - `.toast-container` for spacing between toasts -->
+      <!-- - `.position-absolute`, `top-0` & `end-0` to position the toasts in the upper right corner -->
+      <!-- - `.p-3` to prevent the toasts from sticking to the edge of the container  -->
+      <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <!-- Then put toasts within -->
+        <div
+          class="toast"
+          id="liveToast"
+          role="alert"
+          aria-live="assertive"
+          aria-atomic="true"
+        >
+          <div class="toast-header bg-dark">
+            <img src="" class="rounded me-2" alt="" />
+            <strong class="me-auto">Bootstrap</strong>
+            <small class="text-muted">just now</small>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="toast"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="toast-body">basarili</div>
+        </div>
+
+        <div
+          class="toast"
+          id="liveToastReject"
+          role="alert"
+          aria-live="assertive"
+          aria-atomic="true"
+        >
+          <div class="toast-header bg-danger">
+            <img src="" class="rounded me-2" alt="" />
+            <strong class="me-auto">Bootstrap</strong>
+            <small class="text-muted">2 seconds ago</small>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="toast"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="toast-body">basarısız</div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header">
+        <img
+          src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
+          class="mb-1"
+          alt=""
+        />
+        <h2>Yapılacaklar Listesi</h2>
+        <input type="text" id="task" placeholder="Bugün ne yapacaksın?" />
+        <span id="liveToastBtn" class="button">Ekle</span>
+      </div>
+
+      <ul id="list"></ul>
+
+      <script src="main.js"></script>
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/js/bootstrap.bundle.min.js"
+        integrity="sha512-9GacT4119eY3AcosfWtHMsT5JyZudrexyEVzTBWV3viP/YfB9e2pEy3N7WXL3SV6ASXpTU0vzzSxsbfsuUH4sQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+    </div>
+  </body>
+</html>
